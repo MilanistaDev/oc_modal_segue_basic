@@ -14,6 +14,7 @@
 		FD4658D21A2E015800CB9D77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4658D11A2E015800CB9D77 /* Images.xcassets */; };
 		FD4658D51A2E015800CB9D77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4658D31A2E015800CB9D77 /* LaunchScreen.xib */; };
 		FD4658E11A2E015800CB9D77 /* oc_modal_segue_basicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4658E01A2E015800CB9D77 /* oc_modal_segue_basicTests.m */; };
+		FD4658EC1A2E08DB00CB9D77 /* SegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4658EB1A2E08DB00CB9D77 /* SegueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FD4658DA1A2E015800CB9D77 /* oc_modal_segue_basicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oc_modal_segue_basicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4658DF1A2E015800CB9D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4658E01A2E015800CB9D77 /* oc_modal_segue_basicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_modal_segue_basicTests.m; sourceTree = "<group>"; };
+		FD4658EA1A2E08DB00CB9D77 /* SegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueViewController.h; sourceTree = "<group>"; };
+		FD4658EB1A2E08DB00CB9D77 /* SegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FD4658CB1A2E015800CB9D77 /* ViewController.h */,
 				FD4658CC1A2E015800CB9D77 /* ViewController.m */,
 				FD4658CE1A2E015800CB9D77 /* Main.storyboard */,
+				FD4658EA1A2E08DB00CB9D77 /* SegueViewController.h */,
+				FD4658EB1A2E08DB00CB9D77 /* SegueViewController.m */,
 				FD4658D11A2E015800CB9D77 /* Images.xcassets */,
 				FD4658D31A2E015800CB9D77 /* LaunchScreen.xib */,
 				FD4658C41A2E015800CB9D77 /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4658EC1A2E08DB00CB9D77 /* SegueViewController.m in Sources */,
 				FD4658CD1A2E015800CB9D77 /* ViewController.m in Sources */,
 				FD4658CA1A2E015800CB9D77 /* AppDelegate.m in Sources */,
 				FD4658C71A2E015800CB9D77 /* main.m in Sources */,
@@ -297,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +418,7 @@
 				FD4658E61A2E015800CB9D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4658E71A2E015800CB9D77 /* Build configuration list for PBXNativeTarget "oc_modal_segue_basicTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				FD4658E91A2E015800CB9D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SegueViewController.h
 //  oc_modal_segue_basic
 //
 //  Created by 麻生 拓弥 on 2014/12/02.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SegueViewController : UIViewController
 
-- (IBAction)segueAction:(id)sender;
-- (IBAction)segueAction2:(id)sender;
-
+- (IBAction)BackAction:(id)sender;
 @end
-
